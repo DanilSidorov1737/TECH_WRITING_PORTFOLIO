@@ -115,12 +115,12 @@
     <section class="bg-[#FCF8F1] bg-opacity-30 py-10 sm:py-16 lg:py-24" style="background-image: url('https://i.natgeofe.com/n/1ac334a0-ac4e-4745-a292-169b0a349e8b/grand-peaks-mount-cook.jpg'); background-size: cover; background-position: center;">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <div class="">
-                <div class="backdrop-blur-md p-6 rounded-lg">
-                    <p class="text-center font-semibold tracking-wider text-blue-600 uppercase ">E-Portfolio</p>
+                <div class="backdrop-blur-md p-6 rounded-lg z-30"> <!-- Changed z-index to 30 to ensure dropdown appears above -->
+                    <p class="text-center font-semibold tracking-wider text-white uppercase ">E-Portfolio</p>
                     <h1
-                        class="mt-4 text-4xl font-bold text-center text-black lg:mt-8 sm:text-6xl xl:text-8xl hover:text-blue-600 hover:scale-105 transform transition-all duration-200">
+                        class="mt-4 text-4xl font-bold text-center text-white lg:mt-8 sm:text-6xl xl:text-8xl hover:text-blue-600 hover:scale-105 transform transition-all duration-200">
                         Learn More about Danil Sidorov</h1>
-                    <p class="mt-4 text-base text-black lg:mt-8 sm:text-xl text-center">Checkout my work.</p>
+                    <p class="mt-4 text-base text-white lg:mt-8 sm:text-xl text-center">Checkout my work.</p>
 
                     <div class="flex justify-center mt-8 lg:mt-16">
                         <a href="bio.html" title=""
@@ -136,11 +136,9 @@
                     </div>
 
                 </div>
-                <div class="hidden">
-                    <p class="mt-2 text-sm text-gray-500">Image credit: <a
-                            href="https://images.nightcafe.studio/jobs/rTSthJJZvmN09IiSRciG/rTSthJJZvmN09IiSRciG--1--t6kjs_15.625x.jpg?tr=w-1600,c-at_max"
-                            class="text-blue-600 hover:underline" target="_blank">NightCafe Studio</a></p>
-                </div>
+                <p class="mt-2 text-sm text-white">Image credit: <a
+                        href="https://i.natgeofe.com/n/1ac334a0-ac4e-4745-a292-169b0a349e8b/grand-peaks-mount-cook.jpg"
+                        class="text-white hover:underline" target="_blank">NATGEO</a></p> <!-- Made visible -->
             </div>
         </div>
     </section>
